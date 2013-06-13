@@ -13,10 +13,13 @@ using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
+using System.Collections.Generic;
 
 public partial class _MovieDetails : System.Web.UI.Page
 {
-    private Ticket selectedTicket;
+    //Make a Sorted List
+    private List<CartItems> cartItems;
+    private Tickets selectedTicket;
     protected void Page_Load(object sender, EventArgs e)
     {
         if (Request.QueryString["title"] == null)
@@ -27,6 +30,7 @@ public partial class _MovieDetails : System.Web.UI.Page
         // Gets the name of the product and put it as the title
         Label lblTitle = ((Label)fvMovieDetails.FindControl("lblTitle"));
 
+        // Set page title
         string title = lblTitle.Text;
         HtmlMeta metaTitle = new HtmlMeta();
         metaTitle.Name = title;
@@ -43,7 +47,7 @@ public partial class _MovieDetails : System.Web.UI.Page
         SqlConnection connection = new SqlConnection(ConfigurationSettings.AppSettings["DSN"].ToString());
         SqlCommand command = new SqlCommand(sqlText, connection);
 
-        //open the database and get a datareader
+        //Open the database and get a datareader
         connection.Open();
         SqlDataReader dr = command.ExecuteReader();
         if (dr.Read()) //yup we found our image
@@ -55,58 +59,86 @@ public partial class _MovieDetails : System.Web.UI.Page
 
         if (!IsPostBack)
             ddlPrices.DataBind();
-        selectedTicket = this.GetSelectedTicket();
-        lblCash.Text = selectedTicket.Price.ToString("c");
+        lblCash.Text = getPrice().ToString("c");
     }
 
-    //Get Selected Movie
-    private Ticket GetSelectedTicket()
+    //Get price
+    private decimal getPrice()
     {
-        DataView pricesTable = (DataView)
-            SqlMovieSource.Select(DataSourceSelectArguments.Empty);
+        DataView pricesTable = (DataView)SqlMovieSource.Select(DataSourceSelectArguments.Empty);
         pricesTable.RowFilter = "Age = '" + ddlPrices.SelectedItem.Text + "'";
         DataRowView row = (DataRowView)pricesTable[0];
 
-        Ticket t = new Ticket();
-        t.MovieID = (int)row["MovieID"];
-        t.PriceID = (int)row["PriceID"];
-        t.Price = (decimal)row["Price"];
-        t.Title = row["Title"].ToString();
-        t.Age = row["Age"].ToString();
-        return t;
+        decimal price = (decimal)row["Price"];
+
+        return price;
     }
+
+    //Get Selected Movie
+    private CartItems GetSelectedTicket()
+    {
+        DataView pricesTable = (DataView)SqlMovieSource.Select(DataSourceSelectArguments.Empty);
+        pricesTable.RowFilter = "Age = '" + ddlPrices.SelectedItem.Text + "'";
+        DataRowView row = (DataRowView)pricesTable[0];
+
+        Label lblTitle = (Label)fvMovieDetails.FindControl("lblTitle");
+
+        int movieID = (int)row["MovieID"];
+        string title = lblTitle.Text;
+        int priceID = (int)row["PriceID"];
+        decimal price = (decimal)row["Price"];
+        string age = row["Age"].ToString();
+        int quantity = 0;
+
+        if (txtQuantity.Text.Trim().Length > 0)
+            quantity = Convert.ToInt16(txtQuantity.Text);
+
+        CartItems c = new CartItems.Item(movieID, title, priceID, price, age, quantity);
+
+        return c;
+    }
+
     //Add Price to Cart
     protected void btnAddToCart_Click(object sender, EventArgs e)
     {
+        bool foundTicket = false;
+
         if (Page.IsValid)
         {
-            CartItem item = new CartItem();
-            item.Ticket = selectedTicket;
-            item.Quantity = Convert.ToInt32(txtQuantity.Text);
-            this.AddToCart(item);
+            // Grabs the current cart session
+            cartItems = GetCartSession();
+
+            // Grabs the ticket info
+            CartItems ticketID = GetSelectedTicket();
+
+            foreach (CartItems i in cartItems)
+            {
+                if (i.title == ticketID.title)
+                {
+                    if (i.age == ticketID.age)
+                    {
+                        i.quantity = i.quantity + ticketID.quantity;
+                        foundTicket = true;
+                        break;
+                    }
+                }
+            }
+
+            if (foundTicket == false)
+            {
+                cartItems.Add(ticketID);
+            }
+
             Response.Redirect("~/Promo/Cart.aspx");
         }
     }
-    //Add to Cart method
-    private void AddToCart(CartItem item)
-    {
-        SortedList array_cart = this.GetCart();
-        string ticketID = selectedTicket.Title;
-        if (array_cart.ContainsKey(ticketID))
-        {
-            CartItem existingItem = (CartItem)array_cart[ticketID];
-            existingItem.Quantity += item.Quantity;
-        }
-        else
-            array_cart.Add(ticketID, item);
-    }
-    //Sorted List
-    private SortedList GetCart()
+    //Get Cart Session
+    private List<CartItems> GetCartSession()
     {
         if (Session["Cart"] == null)
         {
-            Session.Add("Cart", new SortedList());
+            Session.Add("Cart", new List<CartItems>());
         }
-        return (SortedList)Session["Cart"];
+        return (List<CartItems>)Session["Cart"];
     }
 }

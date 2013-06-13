@@ -88,6 +88,120 @@ td
 	z-index: 1;
 }
 
+.fullHeader
+{
+	width: 100%;
+}
+
+.cartHeader
+{
+	background-color: #a20004;
+	border-top: 1px solid #a20004;
+	border-bottom: 1px solid #a20004;
+	border-color: Black;
+	margin-left: -1px;
+	float: left;
+	width: 100.3%;
+}
+
+.cartHeaderItemField
+{
+	color: White;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 350px;
+}
+
+.cartHeaderAgeField
+{
+	color: White;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 110px;
+}
+
+.cartHeaderQuantityField
+{
+	color: White;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 110px;
+}
+
+.cartHeaderPriceField
+{
+	color: White;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 110px;
+}
+
+.cartItemField
+{
+	color: Black;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 350px;
+}
+
+.cartAgeField
+{
+	color: Black;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 110px;
+}
+
+.cartQuantityField
+{
+	color: Black;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 110px;
+}
+
+.cartPriceField
+{
+	color: Black;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 110px;
+}
+
+.cartSpaceField
+{
+	color: White;
+	float: left;
+	margin: 10px 0px 10px 10px;
+	width: 300px;
+}
+
+.cartInfoItemField
+{
+	color: White;
+	float: left;
+	margin: 0px 10px 10px 0px;
+	text-align: right;
+	width: 290px;
+}
+
+.cartPriceItemField
+{
+	color: White;
+	float: left;
+	margin: 0px 10px 10px 0px;
+	width: 170px;
+}
+
+.serviceHeader
+{
+	border-top: 1px solid #FFFFFF;
+	border-color: Black;
+	margin-left: -1px;
+	float: left;
+	width: 100.3%;
+}
+
 .tableMovieItem
 {
 	background-color: #a20004;

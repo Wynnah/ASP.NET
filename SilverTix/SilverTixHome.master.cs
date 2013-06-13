@@ -30,7 +30,7 @@ public partial class SilverTixHome : System.Web.UI.MasterPage
             {
                 if (HttpContext.Current.User.Identity.IsAuthenticated && !string.IsNullOrEmpty(Request.QueryString["ReturnUrl"]))
                 {
-                    Response.Redirect("Permission.aspx");
+                    Response.Redirect(Request.RawUrl);
                 }
             }
         }
