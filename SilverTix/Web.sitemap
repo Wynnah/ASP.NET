@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Home.aspx" title="Home"  description="Home Page.">
+      <siteMapNode url="Movies.aspx" title="Movies"  description="Choose a movie." >
+        <siteMapNode url="~/Movies/Alice-In-Wonderland.aspx" title="Alice in Wonderland" description="alice in wonderland."></siteMapNode>
+        <siteMapNode url="~/Movies/Clash-Of-The-Titans.aspx" title="Clash of the Titans" description="Clash of the Titans."></siteMapNode>
+        <siteMapNode url="~/Movies/Date-Night.aspx" title="Date Night" description ="Date Night"></siteMapNode>
+        <siteMapNode url="~/Movies/Death-At-A-Funeral.aspx" title="Death At A Funeral" description="Death at a funeral."></siteMapNode>
+        <siteMapNode url="~/Movies/How-To-Train-Your-Dragon.aspx" title="How to Train Your Dragon" description="How to be a dragon trainer"></siteMapNode>
+        <siteMapNode url="~/Movies/Kick-Ass.aspx" title="Kick Ass" description="Kick some Ass"></siteMapNode>
+        <siteMapNode url="~/Movies/mTronLegacy.aspx" title="Tron Legacy" description="Tron Legacy"></siteMapNode>
+        <siteMapNode url="~/Movies/The-Last-Song.aspx" title="The Last Song" description="Hannah Montana is Miley Cyrus"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="Location.aspx" title="Locations"  description="Choose a location."></siteMapNode>
+      <siteMapNode url="AboutUs.aspx" title="About Us"  description="about silverTix."></siteMapNode>
+      <siteMapNode url="PrivatePolicy.aspx" title="Private Policy" description="Private Policy."></siteMapNode>
+      <siteMapNode url="ContactUs.aspx" title="Contact Us" description="contact silverTix."></siteMapNode>
+      <siteMapNode url="Register.aspx" title="Register" description="Register."></siteMapNode>
+    </siteMapNode>
+</siteMap>

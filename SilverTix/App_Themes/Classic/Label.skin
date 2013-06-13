@@ -1,0 +1,33 @@
+﻿<asp:Label
+    runat="server"
+    Font-Bold="true"
+    Font-Names="Calibri, Arial, Times New Roman"
+    Font-Size="16px"
+    ForeColor="#a20004"
+    SkinID="skinLabel"
+/>
+
+<asp:Label
+    runat="server"
+    Font-Bold="true"
+    Font-Names="Calibri, Arial, Times New Roman"
+    Font-Size="16px"
+    ForeColor="Black"
+    SkinID="skinLabelMovie"
+/>
+
+<asp:Label
+    runat="server"
+    Font-Names="Calibri, Arial, Times New Roman"
+    Font-Size="16px"
+    ForeColor="#dedede"
+    SkinID="skinLabelMovieItem"
+/>
+
+<asp:Label
+    runat="server"
+    Font-Names="Calibri, Arial, Times New Roman"
+    Font-Size="16px"
+    ForeColor="#a20004"
+    SkinID="skinLabelMovieAltItem"
+/>

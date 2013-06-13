@@ -1,0 +1,301 @@
+﻿body
+{
+	background-color: #352f2f;
+	font-family: Calibri, Arial, Times New Roman;
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+h1
+{
+	border-bottom: 1px solid #a20004;
+	color: #a20004;
+	width: 450px;
+}
+
+h2
+{
+	font-size: 16px;
+	color: #a20004;
+	text-align: center;
+	width: 100%;
+}
+
+h4
+{
+	border-bottom: 1px solid #a20004;
+	color: #a20004;
+	width: 450px;
+}
+
+table
+{
+	background-color: White;
+	border-collapse: collapse;
+}
+
+td
+{
+	border-collapse: collapse;
+	width: 800px;	
+}
+
+.bannerLogo1
+{
+	background-color: transparent;
+	text-align: left;
+	vertical-align: text-top;
+	width: 200px;
+}
+
+.bannerLogo2
+{
+	background-color: transparent;
+	text-align: right;
+	vertical-align: text-top;
+	width: 600px;
+}
+
+.bottomPage
+{
+	background-color: transparent;
+	color: #dedede;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.divHeader
+{
+	border-bottom: 1px solid #a20004;
+	font-size: xx-large;
+	font-family: Calibri;
+	width: 450px;
+}
+
+.NavigationBar
+{
+	background-color: #352f2f;
+	border-width: 3px;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-left-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	text-align: center;
+	z-index: 1;
+}
+
+.tableMovieItem
+{
+	background-color: #a20004;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+.tableMovieAltItem
+{
+	background-color: #dedede;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+.tableMovieItemBottom
+{
+	background-color: Black;
+	color: White;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+.tableLogin
+{
+	background-color: #352f2f;
+	color: #dedede;
+	margin: 0 0 auto auto;
+	width: 300px;
+}
+
+.tableLoginAndSummary
+{
+	background-color: #352f2f;
+	width: 600px;
+	margin: 0 0 auto auto;
+}
+
+.tableMasterSize
+{
+	background-color: #352f2f;
+	margin: 0 auto;
+	text-align: center;
+	width: 800px;
+}
+
+.tdAboutUsLeft
+{
+	width: 550px;	
+}
+
+.tdAboutUsRight
+{
+	width: 250px;	
+}
+
+.tdDetailMoviesCenter
+{
+	text-align: left;
+	width: 800;
+}
+
+.tdDetailMoviesLeft
+{
+	text-align: left;
+	width: 650;
+}
+
+.tdDetailMoviesRight
+{
+	text-align: center;
+	width: 150;
+}
+
+.tdListViewBottom
+{
+	text-align: center;	
+}
+
+.tdInsertDatabaseLeft
+{
+	text-align: left;
+	width: 180px;	
+}
+
+.tdInsertDatabaseRight
+{
+	text-align: left;
+	width: 620px;	
+}
+
+.tdLocation
+{
+	text-align: center;
+	width: 400px;
+}
+
+.tdLoggedIn
+{
+	text-align: left;
+	width: 350px;
+}
+
+.tdLoginAndSummaryLeft
+{
+	text-align:center;
+	width: 250px;
+	vertical-align:middle;
+}
+.tdLoginAndSummaryRight
+{
+	width: 350px;
+}
+
+.tdLoginLeft
+{
+	text-align: right;
+	width: 30px;
+}
+
+.tdLoginRight
+{
+	text-align: left;
+	width: 270px;
+}
+
+
+.tdMoviesLeft
+{
+	text-align: center;
+	width: 150px;
+	vertical-align: middle;
+}
+
+.tdMoviesRight
+{
+	text-align: left;
+	width: 650px;
+	vertical-align: middle;
+}
+
+#centerCol
+{
+	border: medium solid Black;
+	height: auto;
+	background: url('App_Themes/Classic/Images/content.gif');
+	width: 800px;
+	padding: 0;
+	margin: auto;
+}
+
+#siteMap
+{
+	height:auto;
+	background-color:White;
+	width:800px;
+	padding:0;
+	margin: auto;
+}
+
+.Movie:active
+{
+	color: blue;
+	text-decoration: none;
+}
+
+.Movie:hover
+{
+	text-decoration: none;
+	color: #a20004;
+	font-weight: bold;
+}
+
+.Movie:link
+{
+	font-weight: bold;
+	color: #a20004;
+	text-decoration: none;
+}
+
+.Movie:visited
+{
+	color: #9900CC;
+	text-decoration: none;
+}
+
+.White:active
+{
+	color: red;
+	text-decoration: none;
+}	
+
+.White:hover
+{
+	color: #dedede;
+	font-weight: bold;
+}
+	
+.White:link
+{
+	color: white;
+	text-decoration: none;
+}
+
+.White:visited
+{
+	color: #9900CC;
+	text-decoration: none;
+}
