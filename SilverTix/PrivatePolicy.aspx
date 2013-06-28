@@ -5,6 +5,7 @@
 </asp:Content>
 <asp:Content ID="cphMainPrivatePolicy" ContentPlaceHolderID="cphMain" runat="Server">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="policyWrapper">
         <div class="policyContent">
             <h1>
@@ -27,6 +28,8 @@
             </p>
             <p>
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     <table>
         <tr>
             <td>
@@ -47,12 +50,16 @@
                 through our website or write to us at
                 <br />
                 <br />
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
                 Privacy Policy<br />
                 c/o SilverTix Inc.<br />
                 1234 Route 324<br />
                 Palette Town, BC, IM1 3E7<br />
                 Canada
+<<<<<<< HEAD
 <<<<<<< HEAD
             </p>
             <h4>
@@ -88,6 +95,8 @@
         </div>
     </div>
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
                 <br />
                 <br />
                 <h4>WHAT IS PERSONAL INFORMATION?</h4>
@@ -116,5 +125,8 @@
             </td>
         </tr>
     </table>
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 </asp:Content>

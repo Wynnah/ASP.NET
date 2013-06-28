@@ -5,6 +5,7 @@
 </asp:Content>
 <asp:Content ID="cphMainUploadDatabase" ContentPlaceHolderID="cphMain" runat="Server">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="uploadDbInfo">
         <h1>
             Store New Movie
@@ -136,6 +137,8 @@
         <asp:Label ID="lblSaveOrNot" runat="server"></asp:Label>
     </div>
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     <table>
         <tr>
             <td>
@@ -270,5 +273,8 @@
             </td>
         </tr>
     </table>
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 </asp:Content>

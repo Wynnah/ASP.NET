@@ -3,6 +3,7 @@
 
 <asp:Content ID="cphHomeHead" ContentPlaceHolderID="cphHead" runat="Server">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <script type="text/javascript" src="<%= Page.ResolveUrl("~") %>Scripts/jquery-1.5.1.min.js"></script>
 <script type="text/javascript" src="<%= Page.ResolveUrl("~") %>Scripts/jquery.cycle.all.js"></script>
 <script type="text/javascript">
@@ -82,6 +83,8 @@
         </div>
     </div>
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 </asp:Content>
 <asp:Content ID="cphHomeMain" ContentPlaceHolderID="cphMain" runat="Server">
     <table>
@@ -162,5 +165,8 @@
             </td>
         </tr>
     </table>
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 </asp:Content>

@@ -1,6 +1,10 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/SilverTixHome.master" AutoEventWireup="true"
 <<<<<<< HEAD
+<<<<<<< HEAD
     CodeFile="Authenticate.aspx.cs" Inherits="_Authenticate" Title="Authentication" %>
+=======
+    CodeFile="Authenticate.aspx.cs" Inherits="_Authenticate" Title="Authenticate Yourself" %>
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
     CodeFile="Authenticate.aspx.cs" Inherits="_Authenticate" Title="Authenticate Yourself" %>
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
@@ -8,6 +12,7 @@
 <asp:Content ID="cphHeadAuthorize" ContentPlaceHolderID="cphHead" runat="Server">
 </asp:Content>
 <asp:Content ID="cphMainAuthorize" ContentPlaceHolderID="cphMain" runat="Server">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <div class="authenticateWrapper">
         <h1>
@@ -28,6 +33,8 @@
         </div>
     </div>
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     <table>
         <tr>
             <td>
@@ -47,5 +54,8 @@
             </td>
         </tr>
     </table>
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 </asp:Content>

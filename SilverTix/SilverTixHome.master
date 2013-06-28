@@ -10,6 +10,7 @@
 </head>
 <body>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <form runat="server">
         <div id="masterSize">
             <div id="loginBar">
@@ -81,6 +82,8 @@
             </div>
         </div>
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     <form id="form1" runat="server">
     <table class="tableMasterSize">
         <tr>
@@ -212,6 +215,9 @@
             </td>
         </tr>
     </table>
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     </form>
 </body>

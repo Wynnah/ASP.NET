@@ -19,7 +19,11 @@ public partial class _Authenticate : System.Web.UI.Page
     {
         // Redirects user back to previous page when btnGoBack is clicked
 <<<<<<< HEAD
+<<<<<<< HEAD
         //this.btnGoBack.OnClientClick = "javascript:window.history.go(-1);return false;";
+=======
+        this.btnGoBack.OnClientClick = "javascript:window.history.go(-1);return false;";
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
         this.btnGoBack.OnClientClick = "javascript:window.history.go(-1);return false;";
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab

@@ -17,6 +17,7 @@ using System.Xml.Linq;
 public partial class _Movies : System.Web.UI.Page
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static SqlConnection con = null;
     private static string dbConnStr = "SilverTixConnectionString";
     private static SqlCommand cmd = null;
@@ -30,6 +31,9 @@ public partial class _Movies : System.Web.UI.Page
 =======
     private DateTime todayDate;
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
+    private DateTime todayDate;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -38,6 +42,7 @@ public partial class _Movies : System.Web.UI.Page
             this.GetDate();
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         // Get the image id from the url
         string ImageId = Request.QueryString["img"];
@@ -52,6 +57,8 @@ public partial class _Movies : System.Web.UI.Page
         con.Open();
         SqlDataReader dr = cmd.ExecuteReader();
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
         //get the image id from the url
         string ImageId = Request.QueryString["img"];
 
@@ -64,12 +71,16 @@ public partial class _Movies : System.Web.UI.Page
         //open the database and get a datareader
         connection.Open();
         SqlDataReader dr = command.ExecuteReader();
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
         if (dr.Read()) //yup we found our image
         {
             Response.ContentType = dr["ImageType"].ToString();
             Response.BinaryWrite((byte[])dr["ImageData"]);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         con.Close();
     }
@@ -168,6 +179,8 @@ public partial class _Movies : System.Web.UI.Page
             ViewState["dataTable"] = value;
         }
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
         connection.Close();
     }
     protected void rbNowPlaying_CheckedChanged(object sender, EventArgs e)
@@ -209,6 +222,9 @@ public partial class _Movies : System.Web.UI.Page
         }
         Session["CalenderToday"] = System.DateTime.Today;
         todayDate = (DateTime)Session["CalenderToday"];
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     }
 }

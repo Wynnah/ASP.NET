@@ -20,7 +20,10 @@ public partial class SilverTixHome : System.Web.UI.MasterPage
         if (HttpContext.Current.User.Identity.IsAuthenticated)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
             MembershipUser authUser = Membership.GetUser(HttpContext.Current.User.Identity.Name);
@@ -40,6 +43,7 @@ public partial class SilverTixHome : System.Web.UI.MasterPage
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     protected void btnLogin_Click(object sender, EventArgs e)
     {
@@ -47,6 +51,8 @@ public partial class SilverTixHome : System.Web.UI.MasterPage
     }
     
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     protected void btnLogin_Click(object sender, EventArgs e)
     {
         TextBox txtUserName = (TextBox)lvLogin.FindControl("txtUserName");
@@ -67,6 +73,9 @@ public partial class SilverTixHome : System.Web.UI.MasterPage
         }
     }
 
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     protected void btnSignOut_Click(object sender, EventArgs e)
     {
@@ -74,7 +83,10 @@ public partial class SilverTixHome : System.Web.UI.MasterPage
         Response.Redirect(Request.RawUrl);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 
     protected void btnRegister_Click(object sender, EventArgs e)
     {
@@ -143,5 +155,8 @@ public partial class SilverTixHome : System.Web.UI.MasterPage
         // cookie, as user data
         return "Admin|Moderator|Customer";
     }
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }

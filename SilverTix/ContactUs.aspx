@@ -5,6 +5,7 @@
 </asp:Content>
 <asp:Content ID="cphMainContactUs" ContentPlaceHolderID="cphMain" runat="Server">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div>
         <h1>
             Contact Us</h1>
@@ -25,6 +26,8 @@
         </div>
     </div>
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     <table>
         <tr>
             <td>
@@ -48,5 +51,8 @@
             </td>
         </tr>
     </table>
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 </asp:Content>

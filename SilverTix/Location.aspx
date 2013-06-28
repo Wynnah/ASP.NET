@@ -5,6 +5,7 @@
 </asp:Content>
 <asp:Content ID="cphMainLocation" ContentPlaceHolderID="cphMain" runat="Server">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="locationWrapper">
             <asp:ListView ID="lvFeatures" runat="server" DataKeyNames="LocationID" DataSourceID="sqlLocations">
                 <ItemTemplate>
@@ -30,6 +31,8 @@
         </asp:SqlDataSource>
     </div>
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     <table>
         <tr>
             <td>
@@ -103,5 +106,8 @@
             </td>
         </tr>
     </table>
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 </asp:Content>

@@ -3,7 +3,10 @@
     <siteMapNode url="Home.aspx" title="Home"  description="Home Page.">
       <siteMapNode url="Movies.aspx" title="Movies"  description="Choose a movie." >
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
         <siteMapNode url="~/Movies/Alice-In-Wonderland.aspx" title="Alice in Wonderland" description="alice in wonderland."></siteMapNode>
         <siteMapNode url="~/Movies/Clash-Of-The-Titans.aspx" title="Clash of the Titans" description="Clash of the Titans."></siteMapNode>
         <siteMapNode url="~/Movies/Date-Night.aspx" title="Date Night" description ="Date Night"></siteMapNode>
@@ -12,6 +15,9 @@
         <siteMapNode url="~/Movies/Kick-Ass.aspx" title="Kick Ass" description="Kick some Ass"></siteMapNode>
         <siteMapNode url="~/Movies/mTronLegacy.aspx" title="Tron Legacy" description="Tron Legacy"></siteMapNode>
         <siteMapNode url="~/Movies/The-Last-Song.aspx" title="The Last Song" description="Hannah Montana is Miley Cyrus"></siteMapNode>
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
       </siteMapNode>
 

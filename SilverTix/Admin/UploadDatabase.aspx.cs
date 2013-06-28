@@ -19,10 +19,13 @@ using System.Xml.Linq;
 public partial class _UploadDatabase : System.Web.UI.Page
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static SqlConnection con = null;
     private static string dbConnStr = "SilverTixConnectionString";
     private static SqlCommand cmd = null;
 
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     protected void Page_Load(object sender, EventArgs e)
@@ -79,6 +82,7 @@ public partial class _UploadDatabase : System.Web.UI.Page
     {
         //use the web.config to store the connection string
 <<<<<<< HEAD
+<<<<<<< HEAD
         con = new SqlConnection(ConfigurationManager.ConnectionStrings[dbConnStr].ConnectionString);
         cmd = new SqlCommand("INSERT INTO [Movies] (Title, ReleaseDate, RunningTime, Genre, Synopsis, Cast, " +
                                 "Rating, ImageName, ImageData ,ImageType, VideoURL) VALUES " + 
@@ -133,6 +137,8 @@ public partial class _UploadDatabase : System.Web.UI.Page
         int numRowsAffected = cmd.ExecuteNonQuery();
         con.Close();
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
         SqlConnection connection = new SqlConnection(ConfigurationSettings.AppSettings["DSN"]);
         SqlCommand command = new SqlCommand("INSERT INTO [Movies] (Title, ReleaseDate, RunningTime, Genre, Synopsis, Cast, Rating, ImageName, ImageData ,ImageType, VideoURL) VALUES (@Title, @ReleaseDate, @RunningTime, @Genre, @Synopsis, @Cast, @Rating, @ImageName, @ImageData, @ImageType, @VideoURL )", connection);
 
@@ -183,6 +189,9 @@ public partial class _UploadDatabase : System.Web.UI.Page
         connection.Open();
         int numRowsAffected = command.ExecuteNonQuery();
         connection.Close();
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 
         return numRowsAffected;

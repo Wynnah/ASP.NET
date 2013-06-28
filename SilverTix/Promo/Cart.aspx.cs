@@ -18,7 +18,10 @@ public partial class _Cart : System.Web.UI.Page
     private List<CartItems> array_cart;
     private String tableBuilder;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private Int16 borderCounter;
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     static string prevPage = String.Empty;
@@ -27,7 +30,11 @@ public partial class _Cart : System.Web.UI.Page
     {
         // Redirects user back to previous page when btnGoBack is clicked
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.btnGoBack.OnClientClick = "javascript:window.history.go(-1); return false;";
+=======
+        //this.btnGoBack.OnClientClick = "javascript:window.history.go(-1); return false;";
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
         //this.btnGoBack.OnClientClick = "javascript:window.history.go(-1); return false;";
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
@@ -36,7 +43,11 @@ public partial class _Cart : System.Web.UI.Page
         {
             this.DisplayCart();
 <<<<<<< HEAD
+<<<<<<< HEAD
             //prevPage = Request.UrlReferrer.ToString();
+=======
+            prevPage = Request.UrlReferrer.ToString();
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
             prevPage = Request.UrlReferrer.ToString();
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
@@ -71,6 +82,7 @@ public partial class _Cart : System.Web.UI.Page
                                            "<div class=\"cartHeaderPriceField\">Price</div>" +
                                        "</div><br /><br /><br />";
 <<<<<<< HEAD
+<<<<<<< HEAD
             borderCounter = 0;
             foreach (CartItems items in array_cart)
             {
@@ -81,10 +93,16 @@ public partial class _Cart : System.Web.UI.Page
             foreach (CartItems items in array_cart)
             {
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
+
+            foreach (CartItems items in array_cart)
+            {
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
                 CartItems ticket = items;
                 singlePrice = (ticket.quantity * Convert.ToDouble(ticket.price));
                 singleTaxPrice = (singlePrice * 0.05);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                 if (borderCounter == 1)
                 {
@@ -101,6 +119,8 @@ public partial class _Cart : System.Web.UI.Page
                                     "<div class=\"cartPriceField\">" + singlePrice.ToString("c") + "</div>" +
                                 "</div><br />";
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
                 tableBuilder += "<div class=\"serviceHeader\">" +
                                             "<div class=\"cartItemField\">" + ticket.title + "</div>" +
                                             "<div class=\"cartAgeField\">" + ticket.age + "</div>" +
@@ -108,6 +128,9 @@ public partial class _Cart : System.Web.UI.Page
                                             "<div class=\"cartPriceField\">" + singlePrice.ToString("c") + "</div>" +
                                         "</div>" +
                                     "</div>";
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 
                 totalPrice += singlePrice;
@@ -115,6 +138,7 @@ public partial class _Cart : System.Web.UI.Page
             }
             totalTaxPriceAfterTax = (totalPrice + totalTaxPrice);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             tableBuilder += "<br />&nbsp;<div class=\"cartHeader\">" +
                                 "<span class=\"cartSpaceField\" style=\"margin-top: 10px;\"></span>" +
@@ -131,6 +155,8 @@ public partial class _Cart : System.Web.UI.Page
                             "</div>" +
                         "</div>&nbsp;";
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
             tableBuilder += "<div class=\"serviceHeader\">" + 
                             "</div><br /><br />" +
                             "<div class=\"cartHeader\">" +
@@ -146,6 +172,9 @@ public partial class _Cart : System.Web.UI.Page
                                 "<span id \"lblTotal\" class=\"cartInfoItemField\">Total Due (CAD):</span>" +
                                 "<span id \"lblTotalPrice\" class=\"cartPriceItemField\">" + totalTaxPriceAfterTax.ToString("c") + "</span>" +
                             "</div><br /><br />";
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
             lblCart.Text = tableBuilder;
         }
@@ -170,7 +199,11 @@ public partial class _Cart : System.Web.UI.Page
     protected void btnGoBack_Click(object sender, EventArgs e)
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         //Response.Redirect(Request.UrlReferrer.ToString());
+=======
+        Response.Redirect(prevPage);
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
         Response.Redirect(prevPage);
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab

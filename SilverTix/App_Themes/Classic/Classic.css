@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿/* DEFAULTS
 ----------------------------------------------------------*/
 
@@ -6,10 +7,14 @@ body
 =======
 ﻿body
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
+﻿body
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 {
 	background-color: #352f2f;
 	font-family: Calibri, Arial, Times New Roman;
 	font-size: 16px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 	position: absolute;
 	top: 0;
@@ -22,6 +27,10 @@ body
 	margin: 0 auto;
 	text-align: left;
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
+	margin: 0 auto;
+	text-align: left;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }
 
 h1
@@ -29,7 +38,11 @@ h1
 	border-bottom: 1px solid #a20004;
 	color: #a20004;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 50%;
+=======
+	width: 450px;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
 	width: 450px;
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
@@ -40,7 +53,11 @@ h2
 	font-size: 16px;
 	color: #a20004;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	text-align: left;
+=======
+	text-align: center;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
 	text-align: center;
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
@@ -51,6 +68,7 @@ h4
 {
 	border-bottom: 1px solid #a20004;
 	color: #a20004;
+<<<<<<< HEAD
 <<<<<<< HEAD
 	width: 466px;
 }
@@ -138,6 +156,8 @@ img
 
 #footer
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 	width: 450px;
 }
 
@@ -170,6 +190,9 @@ td
 }
 
 .bottomPage
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 {
 	background-color: transparent;
@@ -179,6 +202,7 @@ td
 	text-align: center;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .loginViewButtons
 {
@@ -391,6 +415,8 @@ ul#navigationBar li a:active
 	overflow: hidden;
 	width: 941px;
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 .divHeader
 {
 	border-bottom: 1px solid #a20004;
@@ -416,12 +442,16 @@ ul#navigationBar li a:active
 .fullHeader
 {
 	width: 100%;
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }
 
 .cartHeader
 {
 	background-color: #a20004;
+<<<<<<< HEAD
 <<<<<<< HEAD
 	border: 1px solid #000000;
 	float: left;
@@ -436,6 +466,8 @@ ul#navigationBar li a:active
 	float: left;
 	width: 939px;
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 	border-top: 1px solid #a20004;
 	border-bottom: 1px solid #a20004;
 	border-color: Black;
@@ -450,6 +482,9 @@ ul#navigationBar li a:active
 	float: left;
 	padding: 10px 0px 10px 10px;
 	width: 350px;
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }
 
@@ -459,22 +494,32 @@ ul#navigationBar li a:active
 	float: left;
 	padding: 10px 0px 10px 10px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 140px;
 }
 
 .cartHeaderItemField
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 	width: 110px;
 }
 
 .cartHeaderQuantityField
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 {
 	color: White;
 	float: left;
 	padding: 10px 0px 10px 10px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 350px;
+=======
+	width: 110px;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
 	width: 110px;
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
@@ -486,6 +531,7 @@ ul#navigationBar li a:active
 	float: left;
 	padding: 10px 0px 10px 10px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 230px;
 }
 
@@ -496,6 +542,8 @@ ul#navigationBar li a:active
 	padding: 10px 0px 10px 10px;
 	width: 160px;
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 	width: 110px;
 }
 
@@ -505,6 +553,9 @@ ul#navigationBar li a:active
 	float: left;
 	padding: 10px 0px 10px 10px;
 	width: 350px;
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }
 
@@ -514,22 +565,32 @@ ul#navigationBar li a:active
 	float: left;
 	padding: 10px 0px 10px 10px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 140px;
 }
 
 .cartItemField
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 	width: 110px;
 }
 
 .cartQuantityField
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 {
 	color: Black;
 	float: left;
 	padding: 10px 0px 10px 10px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 350px;
+=======
+	width: 110px;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
 	width: 110px;
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
@@ -541,6 +602,7 @@ ul#navigationBar li a:active
 	float: left;
 	padding: 10px 0px 10px 10px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 230px;
 }
 
@@ -550,6 +612,9 @@ ul#navigationBar li a:active
 	float: left;
 	padding: 10px 0px 10px 10px;
 	width: 160px;
+=======
+	width: 110px;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
 	width: 110px;
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
@@ -570,7 +635,11 @@ ul#navigationBar li a:active
 	margin: 0px 10px 10px 0px;
 	text-align: right;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 370px;
+=======
+	width: 290px;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
 	width: 290px;
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
@@ -581,6 +650,7 @@ ul#navigationBar li a:active
 	color: White;
 	float: left;
 	margin: 0px 10px 10px 0px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 	width: 230px;
 }
@@ -777,6 +847,8 @@ ul#navigationBar li a:active
 	color: Black;
 	text-decoration: none;	
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 	width: 170px;
 }
 
@@ -999,5 +1071,8 @@ ul#navigationBar li a:active
 {
 	color: #9900CC;
 	text-decoration: none;
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }

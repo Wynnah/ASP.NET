@@ -17,9 +17,12 @@ using System.Xml.Linq;
 public partial class _Home : System.Web.UI.Page
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static SqlConnection con = null;
     private static string dbConnStr = "SilverTixConnectionString";
     private static SqlCommand cmd = null;
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     protected void Page_Load(object sender, System.EventArgs e)
@@ -31,6 +34,7 @@ public partial class _Home : System.Web.UI.Page
         string sqlText = "SELECT ImageData, ImageType FROM Movies WHERE MovieID = '" + ImageId + "'";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         con = new SqlConnection(ConfigurationManager.ConnectionStrings[dbConnStr].ConnectionString);
         cmd = new SqlCommand(sqlText, con);
 
@@ -38,12 +42,17 @@ public partial class _Home : System.Web.UI.Page
         con.Open();
         SqlDataReader dr = cmd.ExecuteReader();
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
         SqlConnection connection = new SqlConnection(ConfigurationSettings.AppSettings["DSN"].ToString());
         SqlCommand command = new SqlCommand(sqlText, connection);
 
         //open the database and get a datareader
         connection.Open();
         SqlDataReader dr = command.ExecuteReader();
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
         if (dr.Read()) //yup we found our image
         {
@@ -51,7 +60,11 @@ public partial class _Home : System.Web.UI.Page
             Response.BinaryWrite((byte[])dr["ImageData"]);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         con.Close();
+=======
+        connection.Close();
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
         connection.Close();
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab

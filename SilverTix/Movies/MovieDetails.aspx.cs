@@ -18,12 +18,18 @@ using System.Collections.Generic;
 public partial class _MovieDetails : System.Web.UI.Page
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static SqlConnection con = null;
     private static string dbConnStr = "SilverTixConnectionString";
     private static SqlCommand cmd = null;
 
     //Make a Sorted List
     private List<CartItems> cartItems;
+=======
+    //Make a Sorted List
+    private List<CartItems> cartItems;
+    private Tickets selectedTicket;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
     //Make a Sorted List
     private List<CartItems> cartItems;
@@ -54,6 +60,7 @@ public partial class _MovieDetails : System.Web.UI.Page
         string sqlText = "SELECT ImageData, ImageType FROM Movies WHERE MovieID = '" + ImageId + "'";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         con = new SqlConnection(ConfigurationManager.ConnectionStrings[dbConnStr].ConnectionString);
         cmd = new SqlCommand(sqlText, con);
 
@@ -61,12 +68,17 @@ public partial class _MovieDetails : System.Web.UI.Page
         con.Open();
         SqlDataReader dr = cmd.ExecuteReader();
 =======
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
         SqlConnection connection = new SqlConnection(ConfigurationSettings.AppSettings["DSN"].ToString());
         SqlCommand command = new SqlCommand(sqlText, connection);
 
         //Open the database and get a datareader
         connection.Open();
         SqlDataReader dr = command.ExecuteReader();
+<<<<<<< HEAD
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+=======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
         if (dr.Read()) //yup we found our image
         {
@@ -74,7 +86,11 @@ public partial class _MovieDetails : System.Web.UI.Page
             Response.BinaryWrite((byte[])dr["ImageData"]);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         con.Close();
+=======
+        connection.Close();
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
         connection.Close();
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
@@ -83,9 +99,12 @@ public partial class _MovieDetails : System.Web.UI.Page
             ddlPrices.DataBind();
         lblCash.Text = getPrice().ToString("c");
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         rfvCart.Enabled = false;
         rvCart.Enabled = false;
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     }
@@ -122,7 +141,11 @@ public partial class _MovieDetails : System.Web.UI.Page
             quantity = Convert.ToInt16(txtQuantity.Text);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         CartItems c = new CartItems(movieID, title, priceID, price, age, quantity);
+=======
+        CartItems c = new CartItems.Item(movieID, title, priceID, price, age, quantity);
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
         CartItems c = new CartItems.Item(movieID, title, priceID, price, age, quantity);
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
@@ -134,9 +157,12 @@ public partial class _MovieDetails : System.Web.UI.Page
     protected void btnAddToCart_Click(object sender, EventArgs e)
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         rfvCart.Enabled = true;
         rvCart.Enabled = true;
 
+=======
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
         bool foundTicket = false;
@@ -180,7 +206,11 @@ public partial class _MovieDetails : System.Web.UI.Page
         return (List<CartItems>)Session["Cart"];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 =======
 }
 >>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
