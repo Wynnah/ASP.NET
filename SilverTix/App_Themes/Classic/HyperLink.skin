@@ -8,8 +8,6 @@
 
 <asp:HyperLink
     runat="server"
-<<<<<<< HEAD
-<<<<<<< HEAD
     Font-Names="Calibri, Arial, Times New Roman"
     Font-Size="14px"
     ForeColor="#000000"
@@ -18,10 +16,6 @@
 
 <asp:HyperLink
     runat="server"
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     Font-Bold="true"
     Font-Names="Calibri, Arial, Times New Roman"
     Font-Size="16px"
@@ -29,27 +23,15 @@
     ForeColor="#000000"
     SkinID="skinHyperLinkMovie"
 />
-<<<<<<< HEAD
-<<<<<<< HEAD
-    
-<asp:HyperLink
-    runat="server"
-=======
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 
 <asp:HyperLink
     runat="server"
     Font-Names="Calibri, Arial, Times New Roman"
     SkinID="skinHyperLinkContent"
-    />
+/>
     
     <asp:HyperLink
     runat="server"
-<<<<<<< HEAD
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     Font-Bold="true"
     Font-Names="Calibri, Arial, Times New Roman"
     Font-Size="16px"

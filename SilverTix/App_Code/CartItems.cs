@@ -22,25 +22,10 @@ public class CartItems
     public string age { get; set; }
     public int quantity { get; set; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
     public CartItems(int movieID, string title, int priceID, decimal price, string age, int quantity)
     {
         SetInfo(movieID, title, priceID, price, age, quantity);
-=======
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-    public class Item : CartItems
-    {
-        public Item(int movieID, string title, int priceID, decimal price, string age, int quantity)
-        {
-            base.SetInfo(movieID, title, priceID, price, age, quantity);
-        }
-<<<<<<< HEAD
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     }
 
     private void SetInfo(int movieID, string title, int priceID, decimal price,

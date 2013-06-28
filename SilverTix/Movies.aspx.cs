@@ -16,8 +16,6 @@ using System.Xml.Linq;
 
 public partial class _Movies : System.Web.UI.Page
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
     private static SqlConnection con = null;
     private static string dbConnStr = "SilverTixConnectionString";
     private static SqlCommand cmd = null;
@@ -28,12 +26,6 @@ public partial class _Movies : System.Web.UI.Page
     private static string startDate = "";
     private static string endDate = "";
     private static DateTime todaysDate = DateTime.Now;
-=======
-    private DateTime todayDate;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
-    private DateTime todayDate;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -42,8 +34,6 @@ public partial class _Movies : System.Web.UI.Page
             this.GetDate();
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         // Get the image id from the url
         string ImageId = Request.QueryString["img"];
 
@@ -56,32 +46,11 @@ public partial class _Movies : System.Web.UI.Page
         // Open the database and get a datareader
         con.Open();
         SqlDataReader dr = cmd.ExecuteReader();
-=======
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-        //get the image id from the url
-        string ImageId = Request.QueryString["img"];
-
-        //build our query statement
-        string sqlText = "SELECT ImageData, ImageType FROM Movies WHERE MovieID = '" + ImageId + "'";
-
-        SqlConnection connection = new SqlConnection(ConfigurationSettings.AppSettings["DSN"].ToString());
-        SqlCommand command = new SqlCommand(sqlText, connection);
-
-        //open the database and get a datareader
-        connection.Open();
-        SqlDataReader dr = command.ExecuteReader();
-<<<<<<< HEAD
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
         if (dr.Read()) //yup we found our image
         {
             Response.ContentType = dr["ImageType"].ToString();
             Response.BinaryWrite((byte[])dr["ImageData"]);
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
         con.Close();
     }
 
@@ -178,53 +147,5 @@ public partial class _Movies : System.Web.UI.Page
         {
             ViewState["dataTable"] = value;
         }
-=======
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-        connection.Close();
-    }
-    protected void rbNowPlaying_CheckedChanged(object sender, EventArgs e)
-    {
-        if (rbNowPlaying.Checked)
-        {
-            lblMovieTime.Text = "Now Playing";
-            lvAll.Visible = false;
-            lvComingSoon.Visible = false;
-            lvNowPlaying.Visible = true;
-        }
-    }
-    protected void rbComingSoon_CheckedChanged(object sender, EventArgs e)
-    {
-        if (rbComingSoon.Checked)
-        {
-            lblMovieTime.Text = "Coming Soon";
-            lvAll.Visible = false;
-            lvComingSoon.Visible = true;
-            lvNowPlaying.Visible = false;
-        }
-    }
-    protected void rbAll_CheckedChanged(object sender, EventArgs e)
-    {
-        if (rbAll.Checked)
-        {
-            lblMovieTime.Text = "All";
-            lvAll.Visible = true;
-            lvComingSoon.Visible = false;
-            lvNowPlaying.Visible = false;
-        }
-    }
-
-    private void GetDate()
-    {
-        if (Session["CalenderToday"] == null)
-        {
-            Session.Add("CalenderToday", todayDate);
-        }
-        Session["CalenderToday"] = System.DateTime.Today;
-        todayDate = (DateTime)Session["CalenderToday"];
-<<<<<<< HEAD
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
     }
 }

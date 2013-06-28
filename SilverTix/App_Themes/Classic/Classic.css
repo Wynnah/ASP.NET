@@ -1,21 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-﻿/* DEFAULTS
+/* DEFAULTS
 ----------------------------------------------------------*/
 
 body
-=======
-﻿body
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
-﻿body
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 {
 	background-color: #352f2f;
 	font-family: Calibri, Arial, Times New Roman;
 	font-size: 16px;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -23,44 +13,20 @@ body
 	margin-top: 0;
 	margin-left: -480px;
 	overflow-y: scroll;
-=======
-	margin: 0 auto;
-	text-align: left;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
-	margin: 0 auto;
-	text-align: left;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }
 
 h1
 {
 	border-bottom: 1px solid #a20004;
 	color: #a20004;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	width: 50%;
-=======
-	width: 450px;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
-	width: 450px;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }
 
 h2
 {
 	font-size: 16px;
 	color: #a20004;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	text-align: left;
-=======
-	text-align: center;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
-	text-align: center;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 	width: 100%;
 }
 
@@ -68,8 +34,6 @@ h4
 {
 	border-bottom: 1px solid #a20004;
 	color: #a20004;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	width: 466px;
 }
 
@@ -155,45 +119,6 @@ img
 }
 
 #footer
-=======
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-	width: 450px;
-}
-
-table
-{
-	background-color: White;
-	border-collapse: collapse;
-}
-
-td
-{
-	border-collapse: collapse;
-	width: 800px;	
-}
-
-.bannerLogo1
-{
-	background-color: transparent;
-	text-align: left;
-	vertical-align: text-top;
-	width: 200px;
-}
-
-.bannerLogo2
-{
-	background-color: transparent;
-	text-align: right;
-	vertical-align: text-top;
-	width: 600px;
-}
-
-.bottomPage
-<<<<<<< HEAD
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 {
 	background-color: transparent;
 	color: #dedede;
@@ -202,8 +127,6 @@ td
 	text-align: center;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .loginViewButtons
 {
 	background: #4C4646;
@@ -414,45 +337,11 @@ ul#navigationBar li a:active
 	float: left;
 	overflow: hidden;
 	width: 941px;
-=======
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-.divHeader
-{
-	border-bottom: 1px solid #a20004;
-	font-size: xx-large;
-	font-family: Calibri;
-	width: 450px;
-}
-
-.NavigationBar
-{
-	background-color: #352f2f;
-	border-width: 3px;
-	border-right-style: solid;
-	border-top-style: solid;
-	border-left-style: solid;
-	margin-left: auto;
-	margin-right: auto;
-	width: 800px;
-	text-align: center;
-	z-index: 1;
-}
-
-.fullHeader
-{
-	width: 100%;
-<<<<<<< HEAD
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }
 
 .cartHeader
 {
 	background-color: #a20004;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	border: 1px solid #000000;
 	float: left;
 	width: 939px;
@@ -465,27 +354,6 @@ ul#navigationBar li a:active
 	border-right: 1px solid #000000;
 	float: left;
 	width: 939px;
-=======
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-	border-top: 1px solid #a20004;
-	border-bottom: 1px solid #a20004;
-	border-color: Black;
-	margin-left: -1px;
-	float: left;
-	width: 100.3%;
-}
-
-.cartHeaderItemField
-{
-	color: White;
-	float: left;
-	padding: 10px 0px 10px 10px;
-	width: 350px;
-<<<<<<< HEAD
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }
 
 .cartHeaderAgeField
@@ -493,36 +361,15 @@ ul#navigationBar li a:active
 	color: White;
 	float: left;
 	padding: 10px 0px 10px 10px;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	width: 140px;
 }
 
 .cartHeaderItemField
-=======
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-	width: 110px;
-}
-
-.cartHeaderQuantityField
-<<<<<<< HEAD
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 {
 	color: White;
 	float: left;
 	padding: 10px 0px 10px 10px;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	width: 350px;
-=======
-	width: 110px;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
-	width: 110px;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }
 
 .cartHeaderPriceField
@@ -530,8 +377,6 @@ ul#navigationBar li a:active
 	color: White;
 	float: left;
 	padding: 10px 0px 10px 10px;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	width: 230px;
 }
 
@@ -541,22 +386,6 @@ ul#navigationBar li a:active
 	float: left;
 	padding: 10px 0px 10px 10px;
 	width: 160px;
-=======
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-	width: 110px;
-}
-
-.cartItemField
-{
-	color: Black;
-	float: left;
-	padding: 10px 0px 10px 10px;
-	width: 350px;
-<<<<<<< HEAD
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }
 
 .cartAgeField
@@ -564,36 +393,15 @@ ul#navigationBar li a:active
 	color: Black;
 	float: left;
 	padding: 10px 0px 10px 10px;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	width: 140px;
 }
 
 .cartItemField
-=======
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-	width: 110px;
-}
-
-.cartQuantityField
-<<<<<<< HEAD
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 {
 	color: Black;
 	float: left;
 	padding: 10px 0px 10px 10px;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	width: 350px;
-=======
-	width: 110px;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
-	width: 110px;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }
 
 .cartPriceField
@@ -601,8 +409,6 @@ ul#navigationBar li a:active
 	color: Black;
 	float: left;
 	padding: 10px 0px 10px 10px;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	width: 230px;
 }
 
@@ -612,12 +418,6 @@ ul#navigationBar li a:active
 	float: left;
 	padding: 10px 0px 10px 10px;
 	width: 160px;
-=======
-	width: 110px;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
-	width: 110px;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }
 
 .cartSpaceField
@@ -634,15 +434,7 @@ ul#navigationBar li a:active
 	float: left;
 	margin: 0px 10px 10px 0px;
 	text-align: right;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	width: 370px;
-=======
-	width: 290px;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
-	width: 290px;
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }
 
 .cartPriceItemField
@@ -650,8 +442,6 @@ ul#navigationBar li a:active
 	color: White;
 	float: left;
 	margin: 0px 10px 10px 0px;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	width: 230px;
 }
 
@@ -845,234 +635,5 @@ ul#navigationBar li a:active
 .noTextDec
 {
 	color: Black;
-	text-decoration: none;	
-=======
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-	width: 170px;
-}
-
-.serviceHeader
-{
-	border-top: 1px solid #FFFFFF;
-	border-color: Black;
-	margin-left: -1px;
-	float: left;
-	width: 100.3%;
-}
-
-.tableMovieItem
-{
-	background-color: #a20004;
-	margin-left: auto;
-	margin-right: auto;
-	width: 800px;
-}
-
-.tableMovieAltItem
-{
-	background-color: #dedede;
-	margin-left: auto;
-	margin-right: auto;
-	width: 800px;
-}
-
-.tableMovieItemBottom
-{
-	background-color: Black;
-	color: White;
-	margin-left: auto;
-	margin-right: auto;
-	width: 800px;
-}
-
-.tableLogin
-{
-	background-color: #352f2f;
-	color: #dedede;
-	margin: 0 0 auto auto;
-	width: 300px;
-}
-
-.tableLoginAndSummary
-{
-	background-color: #352f2f;
-	width: 600px;
-	margin: 0 0 auto auto;
-}
-
-.tableMasterSize
-{
-	background-color: #352f2f;
-	margin: 0 auto;
-	text-align: center;
-	width: 800px;
-}
-
-.tdAboutUsLeft
-{
-	width: 550px;	
-}
-
-.tdAboutUsRight
-{
-	width: 250px;	
-}
-
-.tdDetailMoviesCenter
-{
-	text-align: left;
-	width: 800;
-}
-
-.tdDetailMoviesLeft
-{
-	text-align: left;
-	width: 650;
-}
-
-.tdDetailMoviesRight
-{
-	text-align: center;
-	width: 150;
-}
-
-.tdListViewBottom
-{
-	text-align: center;	
-}
-
-.tdInsertDatabaseLeft
-{
-	text-align: left;
-	width: 180px;	
-}
-
-.tdInsertDatabaseRight
-{
-	text-align: left;
-	width: 620px;	
-}
-
-.tdLocation
-{
-	text-align: center;
-	width: 400px;
-}
-
-.tdLoggedIn
-{
-	text-align: left;
-	width: 350px;
-}
-
-.tdLoginAndSummaryLeft
-{
-	text-align:center;
-	width: 250px;
-	vertical-align:middle;
-}
-.tdLoginAndSummaryRight
-{
-	width: 350px;
-}
-
-.tdLoginLeft
-{
-	text-align: right;
-	width: 30px;
-}
-
-.tdLoginRight
-{
-	text-align: left;
-	width: 270px;
-}
-
-
-.tdMoviesLeft
-{
-	text-align: center;
-	width: 150px;
-	vertical-align: middle;
-}
-
-.tdMoviesRight
-{
-	text-align: left;
-	width: 650px;
-	vertical-align: middle;
-}
-
-#centerCol
-{
-	border: medium solid Black;
-	height: auto;
-	background: url('App_Themes/Classic/Images/content.gif');
-	width: 800px;
-	padding: 0;
-	margin: auto;
-}
-
-#siteMap
-{
-	height:auto;
-	background-color:White;
-	width:800px;
-	padding:0;
-	margin: auto;
-}
-
-.Movie:active
-{
-	color: blue;
 	text-decoration: none;
-}
-
-.Movie:hover
-{
-	text-decoration: none;
-	color: #a20004;
-	font-weight: bold;
-}
-
-.Movie:link
-{
-	font-weight: bold;
-	color: #a20004;
-	text-decoration: none;
-}
-
-.Movie:visited
-{
-	color: #9900CC;
-	text-decoration: none;
-}
-
-.White:active
-{
-	color: red;
-	text-decoration: none;
-}	
-
-.White:hover
-{
-	color: #dedede;
-	font-weight: bold;
-}
-	
-.White:link
-{
-	color: white;
-	text-decoration: none;
-}
-
-.White:visited
-{
-	color: #9900CC;
-	text-decoration: none;
-<<<<<<< HEAD
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 }

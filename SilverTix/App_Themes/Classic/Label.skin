@@ -19,16 +19,8 @@
 <asp:Label
     runat="server"
     Font-Names="Calibri, Arial, Times New Roman"
-<<<<<<< HEAD
-<<<<<<< HEAD
     Font-Size="14px"
     ForeColor="#000000"
-    SkinID="skinLabelMovieItem"
-=======
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-    Font-Size="16px"
-    ForeColor="#dedede"
     SkinID="skinLabelMovieItem"
 />
 
@@ -38,8 +30,4 @@
     Font-Size="16px"
     ForeColor="#a20004"
     SkinID="skinLabelMovieAltItem"
-<<<<<<< HEAD
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
-=======
->>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
 />
