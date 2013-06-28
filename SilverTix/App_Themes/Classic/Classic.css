@@ -1,0 +1,1003 @@
+<<<<<<< HEAD
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body
+=======
+﻿body
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+{
+	background-color: #352f2f;
+	font-family: Calibri, Arial, Times New Roman;
+	font-size: 16px;
+<<<<<<< HEAD
+	position: absolute;
+	top: 0;
+	left: 50%;
+    width: 960px;
+	margin-top: 0;
+	margin-left: -480px;
+	overflow-y: scroll;
+=======
+	margin: 0 auto;
+	text-align: left;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+}
+
+h1
+{
+	border-bottom: 1px solid #a20004;
+	color: #a20004;
+<<<<<<< HEAD
+	width: 50%;
+=======
+	width: 450px;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+}
+
+h2
+{
+	font-size: 16px;
+	color: #a20004;
+<<<<<<< HEAD
+	text-align: left;
+=======
+	text-align: center;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+	width: 100%;
+}
+
+h4
+{
+	border-bottom: 1px solid #a20004;
+	color: #a20004;
+<<<<<<< HEAD
+	width: 466px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+img
+{
+	border: 0px;
+	text-decoration: none;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+#masterSize
+{
+	left: auto;
+	width: 960px;
+}
+
+#header
+{
+	color: White;
+	float: left;
+	width: 960px;
+	overflow: auto;
+}
+
+#centerCol
+{
+	background-color: #FFFFFF;
+	border: medium solid Black;
+	float: left;
+	min-height: 420px;
+	width: 941px;
+	padding: 7px;
+	overflow: hidden;
+}
+
+#loginBar
+{
+	background: repeat-x scroll 0 0 #000000;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	float: left;
+	height: 30px;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.loginViewBanner
+{
+	color: White;
+	float: right;
+	left: 50%;
+	margin-top: 5px;
+	position: absolute;
+	text-align: right;
+	width: 480px;
+}
+
+#logo
+{
+	background-color: transparent;
+	float: left;
+	width: 280px;
+	overflow: hidden;
+}
+
+#headerContent
+{
+	float: right;
+	margin-top: 55px;
+	text-align: right;
+	width: 680px;
+}
+
+#footer
+=======
+	width: 450px;
+}
+
+table
+{
+	background-color: White;
+	border-collapse: collapse;
+}
+
+td
+{
+	border-collapse: collapse;
+	width: 800px;	
+}
+
+.bannerLogo1
+{
+	background-color: transparent;
+	text-align: left;
+	vertical-align: text-top;
+	width: 200px;
+}
+
+.bannerLogo2
+{
+	background-color: transparent;
+	text-align: right;
+	vertical-align: text-top;
+	width: 600px;
+}
+
+.bottomPage
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+{
+	background-color: transparent;
+	color: #dedede;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+<<<<<<< HEAD
+.loginViewButtons
+{
+	background: #4C4646;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+	color: #FFFFFF;
+	margin-top: -1px;
+	padding: 0.3em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.loginViewButtons:hover
+{
+	background: #e0e0e0;
+	border-color: #000000;
+	color: #000000;	
+}
+
+.loginViewButtons:active
+{
+	background: #4C4646;
+	border-color: #FFFFFF;
+	color: #FFFFFF;	
+}
+
+.headerButtons
+{
+	background: #a20004;
+	border-width: 0.14em;
+	border-style: solid;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 0.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.headerButtons:hover
+{
+	background: #dc0207;
+	border-color: #FFFFFF;
+	color: #FFFFFF;	
+}
+
+.headerButtons:active
+{
+	background: #a20004;
+	border-color: #FFFFFF;
+	color: #FFFFFF;	
+}
+
+/* NAVIGATION MENU LAYOUT 
+----------------------------------------------------------*/
+
+ul#navigationBar 
+{
+	list-style: none;
+	padding: 0;
+	width: 962px;
+}
+
+ul#navigationBar li 
+{
+	display: inline;
+	z-index: 999;
+}
+
+ul#navigationBar li a 
+{
+	background:#a20004;
+	border-top: medium solid #000000;
+	border-left: medium solid #000000;
+	color:#FFFFFF;
+	float:left;
+	padding: 5px 0;
+	text-align:center;
+	text-decoration:none;
+	width: 236px;
+}
+
+ul#navigationBar li a:hover 
+{
+	background: #e0e0e0;
+	color: #000000
+}
+
+ul#navigationBar li a:active 
+{
+	background:#a20004;
+	color:#FFFFFF
+}
+
+/* FOOTER LAYOUT 
+----------------------------------------------------------*/
+
+.footerLinks
+{
+	color: white;
+}
+
+.footerLinks:active
+{
+	color: white;
+}	
+
+.footerLinks:hover
+{
+	color: #dc0207;
+}
+
+.footerLinks:visited
+{
+	color: #dc0207;
+}
+
+/* HOME LAYOUT 
+----------------------------------------------------------*/
+
+#homeMovies
+{
+	overflow: hidden;
+	float: left;
+	width: 941px;
+}
+
+.homeFeatured
+{
+	border: 1px solid black;
+	height: 421px; 
+	width: 939px;
+}
+
+.homeNowAndSoonMovies
+{
+	vertical-align: top;
+	width: 130px;
+	word-wrap: break-all; 
+}
+
+.homeContainer
+{
+	background: #a20004;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0.5em;
+	text-align: center;
+	width: 233px;
+}
+
+/* ABOUT US LAYOUT 
+----------------------------------------------------------*/
+
+.aboutUsWrapper
+{
+	float: left;
+	width: 941px;
+}
+
+.aboutUsContent
+{
+	float: left;
+	overflow: hidden;
+	width: 941px;
+}
+
+/* AUTHENTICATE LAYOUT 
+----------------------------------------------------------*/
+
+.authenticateWrapper
+{
+	float: left;
+	width: 941px;
+}
+
+.authenticateContent
+{
+	float: left;
+	overflow: hidden;
+	width: 941px;
+}
+
+/* CART LAYOUT 
+----------------------------------------------------------*/
+
+.cart
+{
+	float: left;
+	width: 941px;
+}
+
+.cartWrapper
+{
+	float: left;
+	width: 941px;
+}
+
+.cartContent
+{
+	float: left;
+	overflow: hidden;
+	width: 941px;
+=======
+.divHeader
+{
+	border-bottom: 1px solid #a20004;
+	font-size: xx-large;
+	font-family: Calibri;
+	width: 450px;
+}
+
+.NavigationBar
+{
+	background-color: #352f2f;
+	border-width: 3px;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-left-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	text-align: center;
+	z-index: 1;
+}
+
+.fullHeader
+{
+	width: 100%;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+}
+
+.cartHeader
+{
+	background-color: #a20004;
+<<<<<<< HEAD
+	border: 1px solid #000000;
+	float: left;
+	width: 939px;
+}
+
+.cartServiceHeader
+{
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	float: left;
+	width: 939px;
+=======
+	border-top: 1px solid #a20004;
+	border-bottom: 1px solid #a20004;
+	border-color: Black;
+	margin-left: -1px;
+	float: left;
+	width: 100.3%;
+}
+
+.cartHeaderItemField
+{
+	color: White;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 350px;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+}
+
+.cartHeaderAgeField
+{
+	color: White;
+	float: left;
+	padding: 10px 0px 10px 10px;
+<<<<<<< HEAD
+	width: 140px;
+}
+
+.cartHeaderItemField
+=======
+	width: 110px;
+}
+
+.cartHeaderQuantityField
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+{
+	color: White;
+	float: left;
+	padding: 10px 0px 10px 10px;
+<<<<<<< HEAD
+	width: 350px;
+=======
+	width: 110px;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+}
+
+.cartHeaderPriceField
+{
+	color: White;
+	float: left;
+	padding: 10px 0px 10px 10px;
+<<<<<<< HEAD
+	width: 230px;
+}
+
+.cartHeaderQuantityField
+{
+	color: White;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 160px;
+=======
+	width: 110px;
+}
+
+.cartItemField
+{
+	color: Black;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 350px;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+}
+
+.cartAgeField
+{
+	color: Black;
+	float: left;
+	padding: 10px 0px 10px 10px;
+<<<<<<< HEAD
+	width: 140px;
+}
+
+.cartItemField
+=======
+	width: 110px;
+}
+
+.cartQuantityField
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+{
+	color: Black;
+	float: left;
+	padding: 10px 0px 10px 10px;
+<<<<<<< HEAD
+	width: 350px;
+=======
+	width: 110px;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+}
+
+.cartPriceField
+{
+	color: Black;
+	float: left;
+	padding: 10px 0px 10px 10px;
+<<<<<<< HEAD
+	width: 230px;
+}
+
+.cartQuantityField
+{
+	color: Black;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 160px;
+=======
+	width: 110px;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+}
+
+.cartSpaceField
+{
+	color: White;
+	float: left;
+	margin: 10px 0px 10px 10px;
+	width: 300px;
+}
+
+.cartInfoItemField
+{
+	color: White;
+	float: left;
+	margin: 0px 10px 10px 0px;
+	text-align: right;
+<<<<<<< HEAD
+	width: 370px;
+=======
+	width: 290px;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+}
+
+.cartPriceItemField
+{
+	color: White;
+	float: left;
+	margin: 0px 10px 10px 0px;
+<<<<<<< HEAD
+	width: 230px;
+}
+
+/* CHECKOUT LAYOUT 
+----------------------------------------------------------*/
+
+.checkOutContent
+{
+	float: left;
+	overflow: hidden;
+	width: 941px;	
+}
+
+/* EDIT/DELETE MOVIE LAYOUT 
+----------------------------------------------------------*/
+
+.editDeleteMovieWrapper
+{
+	width: 941px;
+}
+
+.chooseMovie
+{
+	float: left;
+	overflow: hidden;
+	width: 655px;
+}
+
+.selectedMovie
+{
+	float: right;
+	overflow: hidden;
+	width: 280px;
+}
+
+/* LOCATION LAYOUT   
+----------------------------------------------------------*/
+
+.locationWrapper
+{
+	width: 941px;
+}
+
+.locationContent
+{
+	float: left;
+	overflow: hidden;
+	width: 470.5px;
+}
+
+/* LOGIN LAYOUT   
+----------------------------------------------------------*/
+
+.loginWrapper
+{
+	width: 941px;
+}
+
+.loginContent
+{
+	float: left;
+	overflow: hidden;
+	width: 469px;
+}
+
+/* MOVIES LAYOUT 
+----------------------------------------------------------*/
+
+.movieContentWrapper
+{
+	background-color: #dedede;
+	float: left;
+	width: 941px;
+}
+
+.movieContentAltWrapper
+{
+	background-color: #a20004;
+	float: left;
+	width: 941px;
+}
+
+.movieImage
+{
+	float: left;
+	margin: 10px 0px 10px 10px;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 150px;
+}
+
+.movieInfo
+{
+	float: left;
+	margin: 10px 0px 10px 0px;
+	text-align: left;
+	vertical-align: middle;
+	width: 781px;
+}
+
+/* MOVIE DETAILS LAYOUT 
+----------------------------------------------------------*/
+
+.movieDetailsWrapper
+{
+	float: left;
+	width: 941px;
+}
+
+.movieDetailsInformation
+{
+	float: left;
+	width: 600px;
+}
+
+.movieDetailsImage
+{
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	width: 340px;
+}
+
+.movieDetailsFullWidth
+{
+	float: left;
+	width: 941px;
+}
+
+.movieDetailsShowTimes
+{
+	background-color: #e0e0e0;
+	float: left;
+	width: 941px;
+}
+
+/* PRIVATE POLICY LAYOUT 
+----------------------------------------------------------*/
+
+.policyWrapper
+{
+	float: left;
+	width: 941px;
+}
+
+.policyContent
+{
+	float: left;
+	overflow: hidden;
+	width: 941px;
+}
+
+/* UPLOAD DATABASE LAYOUT 
+----------------------------------------------------------*/
+
+.uploadDbInfo
+{
+	float: left;
+	width: 670px;
+	overflow: hidden;	
+}
+
+.uploadDbValidSum
+{
+	float: left;
+	margin-top: 50px;
+	width: 270px;
+	overflow: hidden;	
+}
+
+.tdInsertDatabaseLeft
+{
+	text-align: left;
+	width: 200px;	
+}
+
+.tdInsertDatabaseRight
+{
+	text-align: left;
+	width: 530px;	
+}
+
+/* MISC LAYOUT 
+----------------------------------------------------------*/
+
+.textAlignCenter
+{
+	text-align: center;
+}
+
+.noTextDec
+{
+	color: Black;
+	text-decoration: none;	
+=======
+	width: 170px;
+}
+
+.serviceHeader
+{
+	border-top: 1px solid #FFFFFF;
+	border-color: Black;
+	margin-left: -1px;
+	float: left;
+	width: 100.3%;
+}
+
+.tableMovieItem
+{
+	background-color: #a20004;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+.tableMovieAltItem
+{
+	background-color: #dedede;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+.tableMovieItemBottom
+{
+	background-color: Black;
+	color: White;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+.tableLogin
+{
+	background-color: #352f2f;
+	color: #dedede;
+	margin: 0 0 auto auto;
+	width: 300px;
+}
+
+.tableLoginAndSummary
+{
+	background-color: #352f2f;
+	width: 600px;
+	margin: 0 0 auto auto;
+}
+
+.tableMasterSize
+{
+	background-color: #352f2f;
+	margin: 0 auto;
+	text-align: center;
+	width: 800px;
+}
+
+.tdAboutUsLeft
+{
+	width: 550px;	
+}
+
+.tdAboutUsRight
+{
+	width: 250px;	
+}
+
+.tdDetailMoviesCenter
+{
+	text-align: left;
+	width: 800;
+}
+
+.tdDetailMoviesLeft
+{
+	text-align: left;
+	width: 650;
+}
+
+.tdDetailMoviesRight
+{
+	text-align: center;
+	width: 150;
+}
+
+.tdListViewBottom
+{
+	text-align: center;	
+}
+
+.tdInsertDatabaseLeft
+{
+	text-align: left;
+	width: 180px;	
+}
+
+.tdInsertDatabaseRight
+{
+	text-align: left;
+	width: 620px;	
+}
+
+.tdLocation
+{
+	text-align: center;
+	width: 400px;
+}
+
+.tdLoggedIn
+{
+	text-align: left;
+	width: 350px;
+}
+
+.tdLoginAndSummaryLeft
+{
+	text-align:center;
+	width: 250px;
+	vertical-align:middle;
+}
+.tdLoginAndSummaryRight
+{
+	width: 350px;
+}
+
+.tdLoginLeft
+{
+	text-align: right;
+	width: 30px;
+}
+
+.tdLoginRight
+{
+	text-align: left;
+	width: 270px;
+}
+
+
+.tdMoviesLeft
+{
+	text-align: center;
+	width: 150px;
+	vertical-align: middle;
+}
+
+.tdMoviesRight
+{
+	text-align: left;
+	width: 650px;
+	vertical-align: middle;
+}
+
+#centerCol
+{
+	border: medium solid Black;
+	height: auto;
+	background: url('App_Themes/Classic/Images/content.gif');
+	width: 800px;
+	padding: 0;
+	margin: auto;
+}
+
+#siteMap
+{
+	height:auto;
+	background-color:White;
+	width:800px;
+	padding:0;
+	margin: auto;
+}
+
+.Movie:active
+{
+	color: blue;
+	text-decoration: none;
+}
+
+.Movie:hover
+{
+	text-decoration: none;
+	color: #a20004;
+	font-weight: bold;
+}
+
+.Movie:link
+{
+	font-weight: bold;
+	color: #a20004;
+	text-decoration: none;
+}
+
+.Movie:visited
+{
+	color: #9900CC;
+	text-decoration: none;
+}
+
+.White:active
+{
+	color: red;
+	text-decoration: none;
+}	
+
+.White:hover
+{
+	color: #dedede;
+	font-weight: bold;
+}
+	
+.White:link
+{
+	color: white;
+	text-decoration: none;
+}
+
+.White:visited
+{
+	color: #9900CC;
+	text-decoration: none;
+>>>>>>> 20f298e21303c6c9856bd96520d678b2c4443aab
+}
