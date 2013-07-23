@@ -1,0 +1,42 @@
+﻿<asp:HyperLink
+    runat="server"
+    Font-Names="Calibri, Arial, Times New Roman"
+    Font-Size="14px"
+    ForeColor="#dedede"
+    SkinID="skinHyperLink"
+/>
+
+<asp:HyperLink
+    runat="server"
+    Font-Names="Calibri, Arial, Times New Roman"
+    Font-Size="14px"
+    ForeColor="#000000"
+    SkinID="skinHyperLinkMovieNorm"
+/>
+
+<asp:HyperLink
+    runat="server"
+    Font-Bold="true"
+    Font-Names="Calibri, Arial, Times New Roman"
+    Font-Size="16px"
+    Font-Underline="false"
+    ForeColor="#000000"
+    SkinID="skinHyperLinkMovie"
+/>
+
+<asp:HyperLink
+    runat="server"
+    Font-Names="Calibri, Arial, Times New Roman"
+    SkinID="skinHyperLinkContent"
+/>
+    
+    <asp:HyperLink
+    runat="server"
+    Font-Bold="true"
+    Font-Names="Calibri, Arial, Times New Roman"
+    Font-Size="16px"
+    Font-Underline="false"
+    ForeColor="#a20004"
+    SkinID="skinHyperLinkAuthorize"
+/>
+    

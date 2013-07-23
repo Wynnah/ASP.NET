@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Home.aspx" title="Home"  description="Home Page.">
+      <siteMapNode url="Movies.aspx" title="Movies"  description="Choose a movie." >
+      </siteMapNode>
+
+      <siteMapNode url="Location.aspx" title="Locations"  description="Choose a location."></siteMapNode>
+      <siteMapNode url="AboutUs.aspx" title="About Us"  description="about silverTix."></siteMapNode>
+      <siteMapNode url="PrivatePolicy.aspx" title="Private Policy" description="Private Policy."></siteMapNode>
+      <siteMapNode url="ContactUs.aspx" title="Contact Us" description="contact silverTix."></siteMapNode>
+      <siteMapNode url="Register.aspx" title="Register" description="Register."></siteMapNode>
+    </siteMapNode>
+</siteMap>

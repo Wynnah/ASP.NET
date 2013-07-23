@@ -1,0 +1,639 @@
+/* DEFAULTS
+----------------------------------------------------------*/
+
+body
+{
+	background-color: #352f2f;
+	font-family: Calibri, Arial, Times New Roman;
+	font-size: 16px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+    width: 960px;
+	margin-top: 0;
+	margin-left: -480px;
+	overflow-y: scroll;
+}
+
+h1
+{
+	border-bottom: 1px solid #a20004;
+	color: #a20004;
+	width: 50%;
+}
+
+h2
+{
+	font-size: 16px;
+	color: #a20004;
+	text-align: left;
+	width: 100%;
+}
+
+h4
+{
+	border-bottom: 1px solid #a20004;
+	color: #a20004;
+	width: 466px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+img
+{
+	border: 0px;
+	text-decoration: none;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+#masterSize
+{
+	left: auto;
+	width: 960px;
+}
+
+#header
+{
+	color: White;
+	float: left;
+	width: 960px;
+	overflow: auto;
+}
+
+#centerCol
+{
+	background-color: #FFFFFF;
+	border: medium solid Black;
+	float: left;
+	min-height: 420px;
+	width: 941px;
+	padding: 7px;
+	overflow: hidden;
+}
+
+#loginBar
+{
+	background: repeat-x scroll 0 0 #000000;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	float: left;
+	height: 30px;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.loginViewBanner
+{
+	color: White;
+	float: right;
+	left: 50%;
+	margin-top: 5px;
+	position: absolute;
+	text-align: right;
+	width: 480px;
+}
+
+#logo
+{
+	background-color: transparent;
+	float: left;
+	width: 280px;
+	overflow: hidden;
+}
+
+#headerContent
+{
+	float: right;
+	margin-top: 55px;
+	text-align: right;
+	width: 680px;
+}
+
+#footer
+{
+	background-color: transparent;
+	color: #dedede;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.loginViewButtons
+{
+	background: #4C4646;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+	color: #FFFFFF;
+	margin-top: -1px;
+	padding: 0.3em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.loginViewButtons:hover
+{
+	background: #e0e0e0;
+	border-color: #000000;
+	color: #000000;	
+}
+
+.loginViewButtons:active
+{
+	background: #4C4646;
+	border-color: #FFFFFF;
+	color: #FFFFFF;	
+}
+
+.headerButtons
+{
+	background: #a20004;
+	border-width: 0.14em;
+	border-style: solid;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 0.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.headerButtons:hover
+{
+	background: #dc0207;
+	border-color: #FFFFFF;
+	color: #FFFFFF;	
+}
+
+.headerButtons:active
+{
+	background: #a20004;
+	border-color: #FFFFFF;
+	color: #FFFFFF;	
+}
+
+/* NAVIGATION MENU LAYOUT 
+----------------------------------------------------------*/
+
+ul#navigationBar 
+{
+	list-style: none;
+	padding: 0;
+	width: 962px;
+}
+
+ul#navigationBar li 
+{
+	display: inline;
+	z-index: 999;
+}
+
+ul#navigationBar li a 
+{
+	background:#a20004;
+	border-top: medium solid #000000;
+	border-left: medium solid #000000;
+	color:#FFFFFF;
+	float:left;
+	padding: 5px 0;
+	text-align:center;
+	text-decoration:none;
+	width: 236px;
+}
+
+ul#navigationBar li a:hover 
+{
+	background: #e0e0e0;
+	color: #000000
+}
+
+ul#navigationBar li a:active 
+{
+	background:#a20004;
+	color:#FFFFFF
+}
+
+/* FOOTER LAYOUT 
+----------------------------------------------------------*/
+
+.footerLinks
+{
+	color: white;
+}
+
+.footerLinks:active
+{
+	color: white;
+}	
+
+.footerLinks:hover
+{
+	color: #dc0207;
+}
+
+.footerLinks:visited
+{
+	color: #dc0207;
+}
+
+/* HOME LAYOUT 
+----------------------------------------------------------*/
+
+#homeMovies
+{
+	overflow: hidden;
+	float: left;
+	width: 941px;
+}
+
+.homeFeatured
+{
+	border: 1px solid black;
+	height: 421px; 
+	width: 939px;
+}
+
+.homeNowAndSoonMovies
+{
+	vertical-align: top;
+	width: 130px;
+	word-wrap: break-all; 
+}
+
+.homeContainer
+{
+	background: #a20004;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0.5em;
+	text-align: center;
+	width: 233px;
+}
+
+/* ABOUT US LAYOUT 
+----------------------------------------------------------*/
+
+.aboutUsWrapper
+{
+	float: left;
+	width: 941px;
+}
+
+.aboutUsContent
+{
+	float: left;
+	overflow: hidden;
+	width: 941px;
+}
+
+/* AUTHENTICATE LAYOUT 
+----------------------------------------------------------*/
+
+.authenticateWrapper
+{
+	float: left;
+	width: 941px;
+}
+
+.authenticateContent
+{
+	float: left;
+	overflow: hidden;
+	width: 941px;
+}
+
+/* CART LAYOUT 
+----------------------------------------------------------*/
+
+.cart
+{
+	float: left;
+	width: 941px;
+}
+
+.cartWrapper
+{
+	float: left;
+	width: 941px;
+}
+
+.cartContent
+{
+	float: left;
+	overflow: hidden;
+	width: 941px;
+}
+
+.cartHeader
+{
+	background-color: #a20004;
+	border: 1px solid #000000;
+	float: left;
+	width: 939px;
+}
+
+.cartServiceHeader
+{
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	float: left;
+	width: 939px;
+}
+
+.cartHeaderAgeField
+{
+	color: White;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 140px;
+}
+
+.cartHeaderItemField
+{
+	color: White;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 350px;
+}
+
+.cartHeaderPriceField
+{
+	color: White;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 230px;
+}
+
+.cartHeaderQuantityField
+{
+	color: White;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 160px;
+}
+
+.cartAgeField
+{
+	color: Black;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 140px;
+}
+
+.cartItemField
+{
+	color: Black;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 350px;
+}
+
+.cartPriceField
+{
+	color: Black;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 230px;
+}
+
+.cartQuantityField
+{
+	color: Black;
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 160px;
+}
+
+.cartSpaceField
+{
+	color: White;
+	float: left;
+	margin: 10px 0px 10px 10px;
+	width: 300px;
+}
+
+.cartInfoItemField
+{
+	color: White;
+	float: left;
+	margin: 0px 10px 10px 0px;
+	text-align: right;
+	width: 370px;
+}
+
+.cartPriceItemField
+{
+	color: White;
+	float: left;
+	margin: 0px 10px 10px 0px;
+	width: 230px;
+}
+
+/* CHECKOUT LAYOUT 
+----------------------------------------------------------*/
+
+.checkOutContent
+{
+	float: left;
+	overflow: hidden;
+	width: 941px;	
+}
+
+/* EDIT/DELETE MOVIE LAYOUT 
+----------------------------------------------------------*/
+
+.editDeleteMovieWrapper
+{
+	width: 941px;
+}
+
+.chooseMovie
+{
+	float: left;
+	overflow: hidden;
+	width: 655px;
+}
+
+.selectedMovie
+{
+	float: right;
+	overflow: hidden;
+	width: 280px;
+}
+
+/* LOCATION LAYOUT   
+----------------------------------------------------------*/
+
+.locationWrapper
+{
+	width: 941px;
+}
+
+.locationContent
+{
+	float: left;
+	overflow: hidden;
+	width: 470.5px;
+}
+
+/* LOGIN LAYOUT   
+----------------------------------------------------------*/
+
+.loginWrapper
+{
+	width: 941px;
+}
+
+.loginContent
+{
+	float: left;
+	overflow: hidden;
+	width: 469px;
+}
+
+/* MOVIES LAYOUT 
+----------------------------------------------------------*/
+
+.movieContentWrapper
+{
+	background-color: #dedede;
+	float: left;
+	width: 941px;
+}
+
+.movieContentAltWrapper
+{
+	background-color: #a20004;
+	float: left;
+	width: 941px;
+}
+
+.movieImage
+{
+	float: left;
+	margin: 10px 0px 10px 10px;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 150px;
+}
+
+.movieInfo
+{
+	float: left;
+	margin: 10px 0px 10px 0px;
+	text-align: left;
+	vertical-align: middle;
+	width: 781px;
+}
+
+/* MOVIE DETAILS LAYOUT 
+----------------------------------------------------------*/
+
+.movieDetailsWrapper
+{
+	float: left;
+	width: 941px;
+}
+
+.movieDetailsInformation
+{
+	float: left;
+	width: 600px;
+}
+
+.movieDetailsImage
+{
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	width: 340px;
+}
+
+.movieDetailsFullWidth
+{
+	float: left;
+	width: 941px;
+}
+
+.movieDetailsShowTimes
+{
+	background-color: #e0e0e0;
+	float: left;
+	width: 941px;
+}
+
+/* PRIVATE POLICY LAYOUT 
+----------------------------------------------------------*/
+
+.policyWrapper
+{
+	float: left;
+	width: 941px;
+}
+
+.policyContent
+{
+	float: left;
+	overflow: hidden;
+	width: 941px;
+}
+
+/* UPLOAD DATABASE LAYOUT 
+----------------------------------------------------------*/
+
+.uploadDbInfo
+{
+	float: left;
+	width: 670px;
+	overflow: hidden;	
+}
+
+.uploadDbValidSum
+{
+	float: left;
+	margin-top: 50px;
+	width: 270px;
+	overflow: hidden;	
+}
+
+.tdInsertDatabaseLeft
+{
+	text-align: left;
+	width: 200px;	
+}
+
+.tdInsertDatabaseRight
+{
+	text-align: left;
+	width: 530px;	
+}
+
+/* MISC LAYOUT 
+----------------------------------------------------------*/
+
+.textAlignCenter
+{
+	text-align: center;
+}
+
+.noTextDec
+{
+	color: Black;
+	text-decoration: none;
+}
