@@ -1,0 +1,8 @@
+﻿<asp:Label
+    runat="server"
+    Font-Bold="true"
+    Font-Names="Arial, Helvetica, Verdana, sans-serif"
+    Font-Size="1.1em"
+    ForeColor="#000000"
+    SkinID="skinLabelCatalogItemHeader"
+/>

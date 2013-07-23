@@ -1,0 +1,11 @@
+﻿<asp:Button
+    runat="server"
+    BackColor="#000000"
+    BorderWidth="2px"
+    BorderColor="#747474"
+    BorderStyle="Outset"
+    ForeColor="#dedede"
+    Font-Names="Arial, Helvetica, Verdana, sans-serif"
+    Font-Size="1.1em"
+    SkinID="skinButton"
+/>

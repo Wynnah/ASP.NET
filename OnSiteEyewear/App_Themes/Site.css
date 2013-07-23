@@ -1,0 +1,758 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+a
+{
+	text-decoration: none;	
+}
+
+body   
+{
+    background: #FFFFFF;
+    font-size: 13px;
+    font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    position: absolute;
+    top: 0;
+	left: 50%;
+    width: 960px;
+	margin-top: 0;
+	margin-left: -480px;
+    color: #696969;
+}
+
+h2 
+{
+    font-size:large;
+    color: #000000;
+}
+
+img
+{
+	border: 0px;
+	text-decoration: none;	
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 960px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.header
+{
+    position: relative;
+    margin: auto;
+    padding: 0px;
+    background: #FFFFFF;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #ffffff;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+	margin-top: -15px;
+	padding: 0px 12px;
+    min-height: 420px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #a5a5a5;
+    padding: 8px 0px 0px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: normal;
+    border-top: #e0e0e0 1px solid;
+}
+
+/* NAVIGATION MENU LAYOUT 
+----------------------------------------------------------*/
+
+ul#navigationBar 
+{
+	background: transparent url("../Images/navMenu2.jpg") repeat-x;
+	list-style: none;
+	padding: 0;
+	width: 960px; 
+	height: 65px;
+	padding-top: 23px;
+}
+
+ul#navigationBar li 
+{
+	display: inline;
+	position: relative;
+	text-transform: uppercase;
+	padding-left: 30px;
+}
+
+ul#navigationBar li a 
+{
+	color:#000000;
+	font-weight: bold;
+	padding: 5px; 
+}
+
+ul#navigationBar li a:hover 
+{
+	color: #838383;
+}
+
+ul#navigationBar li a span 
+{ 
+	display: inline-block;
+	margin-top: 2px;
+	width: 20px; 
+	height: 15px; 
+	background: url(../Images/arrowDown.png) no-repeat;
+}
+
+ul#navigationBar li a:active 
+{
+	color:#000000;
+}
+
+ul#navigationBar li.dropdownHover a 
+{ 
+	position: relative; 
+	z-index: 100; 
+}
+
+.subPanel
+{
+	background-color: #838383; 
+		-moz-border-radius: 10px; 
+		-webkit-border-radius: 10px; 
+		-khtml-border-radius: 10px; 
+	border-radius: 10px;
+	display: none;
+	float: left;
+	margin-left: 20px;
+	padding: 5px;
+	position: absolute; 
+	top: -15px; 
+	left: -18px;
+}
+
+.subPanel ul 
+{ 
+	background: #e0e0e0; 
+		-moz-border-radius: 10px; 
+		-webkit-border-radius: 10px; 
+		-khtml-border-radius: 10px; 
+	border-radius: 10px;
+	padding: 15px; 
+}
+
+.subPanel ul li.space
+{ 
+	margin-top: 16px; 
+}
+
+ul#navigationBar li .subPanel ul li
+{ 
+	padding: 3px 0; 
+	display: block; 
+	font-size: 10px; 
+}
+				
+ul#navigationBar li .subPanel ul li a 
+{ 
+	background: none; 
+	font-size: 13px;
+	text-transform: capitalize;
+	text-shadow: 1px 1px 0px #e0e0e0; 
+}		
+
+ul#navigationBar li .subPanel ul li a:hover 
+{ 
+	color: White; 
+}		
+
+.slidesjs-previous slidesjs-navigation
+{
+	background: url(../Images/arrowDown.png) no-repeat;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* CATALOG LAYOUT   
+----------------------------------------------------------*/
+
+.catalog
+{
+	float: left;
+	width: 735px;
+}
+
+.catalogController
+{
+	background-color: #e0e0e0;
+	display: table-cell;
+	width: 735px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.catalogForEachItemSize
+{
+	float: left;
+	width: 245px;
+}
+
+.catalogItemName
+{
+	width: 245px;
+	height: 20px;
+	margin-bottom: 10px;
+	vertical-align: top;
+	word-spacing: normal;
+}
+
+.catalogPicture
+{
+	width: 245px;
+	height: 200px;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.catalogDetails
+{
+	width: 245px;
+	margin-bottom: 10px;
+}
+
+.catalogButton
+{
+	width: 245px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.catalogBtnViewAll
+{
+	float: left;
+	width: 90px;
+}
+
+.catalogDataPager
+{
+	float: left;
+	width: 610px;
+}
+
+.catalogSearch
+{
+	float: left;
+	margin-top: 1px;
+	width: 201px;
+}
+
+.catalogSortBy
+{
+	float: left;
+	text-align: right;
+	width: 266px;
+}
+
+/* SPECIFIC CATALOG LAYOUT   
+----------------------------------------------------------*/
+
+.tdPrescriptionFooter1
+{
+	padding-left: 5px;
+	text-align: left;
+	width: 50%;
+}
+
+.tdPrescriptionFooter2
+{
+	padding-right: 5px;
+	text-align: right;
+	width: 50%;
+}
+
+.alignLeftFullSize
+{
+	text-align: left;
+	width: 50%;
+}
+
+.tdUseGlassesAnswer
+{
+	padding: 2px auto 2px auto;
+	text-align: left;
+	width: 33.3%;
+}
+
+.tdLensOption
+{
+	padding: 2px auto 2px auto;
+	text-align: left;
+	width: 100%;
+}
+
+.divLensOptionDetail1
+{
+	float: left;
+	text-align: left;
+	width: 50%;
+}
+
+.divLensOptionDetail2
+{
+	float: left;
+	text-align: left;
+	width: 50%;
+}
+
+.tdPrescriptionMeasurement
+{
+	padding: 5px auto 5px auto;
+	text-align: left;
+	width: 17%;
+}
+
+.tdSpecificCatalog
+{
+	padding: 5px;
+	vertical-align: top;
+	width: 50%;	
+}
+
+.tdSpecificCatalogDetails
+{
+	padding: 5px;
+	width: 100%;	
+}
+
+.tdSpecificCatalogFrameSize
+{
+	text-align: center;
+	width: 100%;	
+}
+
+.tdSpecificCatalogFrameSizeDetails
+{
+	padding: 5px;
+	text-align: center;
+	width: 16%;	
+}
+
+.tdSpecificCatalogFrameSizeText
+{
+	text-align: left;
+	width: 50%;	
+}
+
+.tdSpecificCatalogFrameSizeText2
+{
+	text-align: left;
+	width: 25%;	
+}
+
+.tdSpecificCatalogMainPicture
+{
+	text-align: center;
+	width: 100%;
+}
+
+.tdSpecificCatalogSubPicture
+{
+	text-align: center;
+	width: 33.3%;
+}
+
+.divMPDQuestion
+{
+	float: left;
+	width: 60%;	
+}
+
+.divMPDQuestion2
+{
+	float: left;
+	width: 40%;	
+}
+
+/* VIEW SHOPPING CART LAYOUT   
+----------------------------------------------------------*/
+
+.divCartHeaderDelete
+{
+	float: right;
+	padding-right: 44px;
+}
+
+.tdCartHeader
+{
+	background-color: #e0e0e0;	
+	color: Black;
+	width: 100%;
+}
+
+.tdCartHeaderItemName
+{
+	width: 40%;
+}
+
+.tdCartHeaderItemText
+{	
+	color: Black;
+	width: 10%;
+}
+
+.tdCartItemName
+{
+	width: 40%;
+}
+
+.tdCartItemText
+{
+	width: 10%;
+}
+
+.tdCartFooter
+{
+	background-color: #e0e0e0;
+	color: Black;
+	font-weight: bold;
+	text-align: left;
+	width: 100%;
+}
+
+.tdCartFooterLeft
+{
+	width: 67%;
+}
+
+.tdCartFooterCenter
+{
+	width: 18%;
+}
+
+.tdCartFooterRight
+{
+	text-align: right;
+	width: 10%;
+}
+
+.tdCartFooterExtraRight
+{
+	width: 5%;
+}
+
+.tdCartFooterTotal
+{
+	border-bottom: 1px solid Black;
+	width: 30%;
+}
+
+
+/* ORDER REVIEW LAYOUT   
+----------------------------------------------------------*/
+
+.tdOrderReviewMain
+{
+	text-align: center;
+	width: 100%;
+}
+
+.tdOrderReviewHeader
+{
+	background-color: #e0e0e0;	
+	color: Black;
+	font-weight: 500;
+	text-align: center;
+	width: 100%;
+}
+
+.tdOrderReviewFooter
+{
+	background-color: #e0e0e0;
+	color: Black;
+	font-weight: 500;
+	width: 100%;
+}
+
+.divOrderReviewHeaderBiggerDetails
+{
+	float: left;
+	width: 34%;
+}
+
+.divOrderReviewHeaderSmallerDetails
+{
+	float: left;
+	width: 10%;
+}
+
+.divOrderReviewFooter1
+{
+	float: left;
+	width: 67%;
+}
+
+.divOrderReviewFooter2
+{
+	float: left;
+	width: 18%;
+}
+
+.divOrderReviewFooter3
+{
+	float: left;
+	text-align: right;
+	width: 12%;
+}
+
+.divOrderReviewFooter4
+{
+	float: left;
+	width: 3%;
+}
+
+.pCheckout
+{
+	text-align: right;
+	width: 100%;	
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.answer 
+{
+	display:none;
+}
+
+.border
+{
+	border: 1px solid black;
+}
+
+.boldBlack
+{
+	color: Black;
+	font-weight: bold;	
+}
+
+.fullSize
+{
+	width: 100%;	
+}
+
+.almostFullSize
+{
+	width: 80%;	
+}
+
+.vldRedColor
+{
+	color: Red;	
+}
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    text-align:center;
+    width: auto;
+    
+}
+.description
+{
+    color:Black;
+}
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 0px 5px 20px 5px;
+    color: #000000;
+}
+
+.loginDisplay a:link
+{
+    color: #000000;
+}
+
+.loginDisplay a:visited
+{
+    color: #000000;
+}
+
+.loginDisplay a:hover
+{
+    color: #000000;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+#slideshow 
+{
+	overflow: scroll; 
+	width: 819px; height: 462px;
+}
+
+#slideshow ul 
+{
+	list-style: none;
+	width: 2457px;
+}
+
+#slideshow ul li 
+{
+	float: left;
+	margin-top: -12px;
+	margin-left: -40px;
+	margin-right: 40px;
+}
+
+#slideshow-nav 
+{
+	width: 250px;
+	margin: 0 auto 200px auto;
+	visibility: hidden;
+}
+
+#slideshow-nav ul 
+{
+	list-style: none;
+}
+
+#slideshow-nav ul li 
+{
+	float: left;
+}
+
+#slideshow-nav ul li a 
+{
+	
+	background-color: #e0e0e0;
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	display: block;
+	float: left;
+	margin: 0 10px;
+	text-indent: -9999px;
+	width: 30px; height: 30px;
+}
+
+#slideshow-nav ul li a:hover, #slideshow-nav ul li a.active
+{
+	background-color: #000;
+}

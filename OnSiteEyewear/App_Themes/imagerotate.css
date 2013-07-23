@@ -1,0 +1,35 @@
+/* Pikachoose jQuery Plugin. CSS for the image gallery feature.*/
+
+/*if you just want to adjust the size of the stage and the thumbnails, you can do so by editing the following lines: */
+.pika-thumbs li{width: 120px; height:60px;}
+.pika-stage {width: 100%;}
+
+a{color:white;}
+.pikachoose {width: 100%; margin: 0 auto;}
+.pika-stage {position: relative;background: #ffffff; padding: 0px 0px 0px 0px;text-align:center;height:115px;}
+	
+	/*if you change the padding on pika-stage you must adjust the top left of this to match! */
+	.pika-stage .main-image {position: absolute; top: 0px; left: 0px;}
+	.pika-stage .pika-aniwrap{position: absolute; top: 0px; left: 0px;}
+	.pika-stage .pika-aniwrap{width:100%;}
+	.pika-stage .pika-ani {position:relative;display: none;z-index:2;margin:0 auto;}
+	.pika-stage img {border:0;height:115px; width:220px;}
+
+.pika-stage .caption {position: absolute; background: url(75-black.png);  border: 1px solid #141414; font-size: 11px; 
+			color: #fafafa; padding: 10px; text-align: right; bottom: 50px; right: 10px;}
+	.pika-stage .caption p {padding: 0; margin: 0; line-height: 14px;}
+
+.pika-textnav, .pika-imgnav, .pika-counter {display:none;}
+
+	
+.pika-thumbs {margin: 10px 0 0 17px; padding: 0; overflow: hidden;}
+	.pika-thumbs li {float: left; list-style-type: none;padding: 3px; margin: 0 5px; background: #ffffff; border: 1px solid #000000; cursor: pointer;}
+		.pika-thumbs li:last {margin: 0;}
+		.pika-thumbs li .clip {position:relative;height:100%;text-align: center; vertical-align: middle; overflow: hidden;}
+
+/*for the tool tips*/
+/*
+.pika-tooltip{font-size:12px;position:absolute;color:white;padding:3px; background-color: rgba(0,0,0,0.7);border:3px solid black;}
+.pika-counter{position: absolute;bottom: 45px;left:15px;color:white;background:rgba(0,0,0,0.7);font-size:11px;padding:3px;-moz-border-radius: 5px;border-radius:5px;}
+		*/
+		

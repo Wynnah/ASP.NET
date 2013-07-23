@@ -1,0 +1,19 @@
+﻿<asp:HyperLink
+    runat="server"
+    Font-Bold="true"
+    Font-Names="Arial, Helvetica, Verdana, sans-serif"
+    Font-Size="1.1em"
+    Font-Underline="false"
+    ForeColor="#000000"
+    SkinID="skinHyperLinkCatalogItemHeader"
+/>
+
+<asp:HyperLink
+    runat="server"
+    Font-Bold="true"
+    Font-Names="Arial, Helvetica, Verdana, sans-serif"
+    Font-Size="1.0em"
+    Font-Underline="false"
+    ForeColor="#797979"
+    SkinID="skinHyperLinkCartItemHeader"
+/>
